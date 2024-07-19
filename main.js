@@ -24,8 +24,10 @@ setInterval(()=>{
     index++;
     }
     else{
-        fullStackSpan.innerText = "";
-        index = 0;
+        setTimeout(()=>{
+            fullStackSpan.innerText = "";
+            index = 0;
+        },700)
     }
 },240)
 
