@@ -27,6 +27,7 @@ html{
     color: var(--Btn-Color);
     cursor: pointer;
     transition: all var(--Transition-Time) linear;
+    z-index: 9999;
     
 }
 #upBtn:hover{
