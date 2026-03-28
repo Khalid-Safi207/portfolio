@@ -272,6 +272,10 @@ nav ul li a {
     color: var(--color-secondary);
     margin-bottom: 10px;
 }
+.projects .project h3 i{
+    color: var(--color-primary);
+    margin-left: 5px;
+}
 .projects .project p {
     font-size: 16px;
     color: var(--color-secondary);
